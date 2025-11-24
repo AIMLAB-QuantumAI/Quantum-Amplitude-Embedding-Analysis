@@ -29,3 +29,5 @@ class CNN(nn.Module):
         self.conv2 = nn.Conv2d(32, 64, 3, 1)
         self.fc1 = nn.Linear(9216, hidden_dim)
         self.fc2 = nn.Linear(hidden_dim, num_classes)
+
+## 251124 Version
